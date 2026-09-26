@@ -1,0 +1,66 @@
+spec_version: "0.1.0"
+name: "codecraft-agent"
+version: "1.0.0"
+description: >
+  Autonomous competitive programming and algorithmic intelligence agent for CodeCraft.
+  Analyzes algorithmic patterns, validates time and space complexity constraints, generates
+  verified optimal solutions, and compiles pedagogical explanations across dynamic programming,
+  graph theory, trees, and range queries.
+author: "Chithra R"
+license: "MIT"
+
+model:
+  preferred: "gemini-2.0-flash"
+  fallback:
+    - "gpt-4o"
+    - "claude-3-5-sonnet"
+  constraints:
+    temperature: 0.1
+    max_tokens: 4096
+
+skills:
+  - algorithm-pattern-analyzer
+  - complexity-verifier
+  - solution-synthesizer
+  - testcase-generator
+
+tools:
+  - pattern-classifier
+  - complexity-calculator
+  - code-evaluator
+  - testcase-builder
+
+runtime:
+  max_turns: 10
+  temperature: 0.1
+  timeout: 120
+
+compliance:
+  risk_tier: standard
+  frameworks:
+    - ferpa
+    - gdpr
+  data_governance:
+    pii_handling: redact
+    data_classification: internal
+  recordkeeping:
+    audit_logging: true
+    log_format: structured_json
+  supervision:
+    human_in_the_loop: conditional
+    override_capability: true
+    kill_switch: true
+
+tags:
+  - education
+  - competitive-programming
+  - algorithms
+  - data-structures
+  - leetcode
+  - codeforces
+  - complexity-analysis
+  - developer-tools
+
+metadata:
+  domain: "education"
+  category: "Education"

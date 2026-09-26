@@ -1,0 +1,13 @@
+name: pattern-classifier
+description: Classify problem descriptions into algorithmic archetypes and determine asymptotic targets.
+input_schema:
+  type: object
+  properties:
+    problem_text:
+      type: string
+      description: Problem statement narrative.
+    constraints:
+      type: object
+      description: Input bounds and time/memory limits.
+  required:
+    - problem_text

@@ -1,0 +1,15 @@
+name: testcase-builder
+description: Construct adversarial, extreme boundary, and random testcases for algorithm validation.
+input_schema:
+  type: object
+  properties:
+    pattern_type:
+      type: string
+      description: Target problem archetype (e.g. graph, array, tree).
+    edge_cases:
+      type: array
+      items:
+        type: string
+      description: Specific boundary conditions to target (e.g. N=1, overflow, empty).
+  required:
+    - pattern_type

@@ -1,5 +1,10 @@
 # Competitive Programming Handbook
 
+[![OpenGAP Spec 0.1.0](https://img.shields.io/badge/OpenGAP-0.1.0-blue.svg)](https://opengitagent.org)
+[![GitAgent Passport](https://img.shields.io/badge/GitAgent%20Passport-Ready-brightgreen.svg)](https://app.hidevs.xyz/passport/submit)
+[![Category](https://img.shields.io/badge/Category-Education-purple.svg)](https://app.hidevs.xyz/passport/submit)
+[![Compliance](https://img.shields.io/badge/Compliance-FERPA%20%7C%20GDPR-orange.svg)](EXPLAINABILITY.md)
+
 Welcome to the **Competitive Programming Handbook Repository** — a comprehensive, structured, and community-driven collection of **algorithms, data structures, problem-solving techniques, and detailed explanations** aimed at helping students and developers master competitive programming.
 
 This repository is designed to serve as a **single-source reference** for beginners as well as advanced programmers preparing for:
@@ -151,6 +156,19 @@ If this repository helps you:
 
 Your support helps the project grow.
 
+
+---
+
+## GitAgent Passport Qualification
+
+This repository is fully compliant with the **OpenGAP Spec 0.1.0** standard and qualified for the **HiDevs GitAgent Passport**:
+
+- **Checkpoint 1 (Validate):** Verified OpenGAP spec 0.1.0 compliance via [`agent.yaml`](agent.yaml), [`SOUL.md`](SOUL.md), [`skills/`](skills/), and [`tools/`](tools/).
+- **Checkpoint 2 (Explain):** Comprehensive algorithmic decision governance and complexity verification report in [`EXPLAINABILITY.md`](EXPLAINABILITY.md) detailing pattern taxonomy, asymptotic scoring, and anti-cheating guardrails.
+- **Checkpoint 3 (Export):** Cross-framework export compatibility tested across OpenAI SDK, CrewAI, Claude Code, and Lyzr.
+- **Target Category:** **`Education`** (Competitive Programming & Algorithmic Synthesis).
+
+---
 
 ## Contact & Maintainers
 

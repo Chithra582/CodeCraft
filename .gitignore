@@ -1,0 +1,8 @@
+.DS_Store
+desktop.ini
+Thumbs.db
+node_modules/
+__pycache__/
+*.exe
+*.o
+*.a

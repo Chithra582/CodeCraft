@@ -1,0 +1,18 @@
+name: complexity-calculator
+description: Calculate formal Big-O time and space complexity and evaluate execution feasibility.
+input_schema:
+  type: object
+  properties:
+    time_complexity:
+      type: string
+      description: Asymptotic worst-case time complexity expression (e.g. O(N log N)).
+    space_complexity:
+      type: string
+      description: Asymptotic auxiliary space complexity expression (e.g. O(N)).
+    max_n:
+      type: integer
+      description: Maximum input bound N.
+  required:
+    - time_complexity
+    - space_complexity
+    - max_n
